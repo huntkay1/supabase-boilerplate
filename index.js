@@ -14,6 +14,7 @@ async function getBooks() {
       bookTable.innerHTML += `<tr> 
       <td>${book.title} </td>
       <td>${book.author}</td>
+      <td>${book.description}</td>
       <td>${book.ISBN}</td>          
       </tr>`;
     }
